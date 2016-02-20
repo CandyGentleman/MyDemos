@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE8E31CC1C78BB5800AFFD68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8E31CB1C78BB5800AFFD68 /* main.m */; };
+		AE8E31CF1C78BB5800AFFD68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8E31CE1C78BB5800AFFD68 /* AppDelegate.m */; };
+		AE8E31D21C78BB5800AFFD68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8E31D11C78BB5800AFFD68 /* ViewController.m */; };
+		AE8E31D51C78BB5800AFFD68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8E31D31C78BB5800AFFD68 /* Main.storyboard */; };
+		AE8E31D71C78BB5800AFFD68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE8E31D61C78BB5800AFFD68 /* Assets.xcassets */; };
+		AE8E31DA1C78BB5800AFFD68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8E31D81C78BB5800AFFD68 /* LaunchScreen.storyboard */; };
+		AE8E31E51C78BB5800AFFD68 /* __QQ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8E31E41C78BB5800AFFD68 /* __QQ____Tests.m */; };
+		AE8E31F01C78BB5800AFFD68 /* __QQ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8E31EF1C78BB5800AFFD68 /* __QQ____UITests.m */; };
+		AE8E31FF1C78D7FB00AFFD68 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8E31FE1C78D7FB00AFFD68 /* UIImage+Image.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE8E31E11C78BB5800AFFD68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE8E31BF1C78BB5800AFFD68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE8E31C61C78BB5800AFFD68;
+			remoteInfo = "模拟QQ下拉效果";
+		};
+		AE8E31EC1C78BB5800AFFD68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE8E31BF1C78BB5800AFFD68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE8E31C61C78BB5800AFFD68;
+			remoteInfo = "模拟QQ下拉效果";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE8E31C71C78BB5800AFFD68 /* 模拟QQ下拉效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "模拟QQ下拉效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE8E31CB1C78BB5800AFFD68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE8E31CD1C78BB5800AFFD68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE8E31CE1C78BB5800AFFD68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE8E31D01C78BB5800AFFD68 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE8E31D11C78BB5800AFFD68 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE8E31D41C78BB5800AFFD68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE8E31D61C78BB5800AFFD68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE8E31D91C78BB5800AFFD68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE8E31DB1C78BB5800AFFD68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE8E31E01C78BB5800AFFD68 /* 模拟QQ下拉效果Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "模拟QQ下拉效果Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE8E31E41C78BB5800AFFD68 /* __QQ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__QQ____Tests.m"; sourceTree = "<group>"; };
+		AE8E31E61C78BB5800AFFD68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE8E31EB1C78BB5800AFFD68 /* 模拟QQ下拉效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "模拟QQ下拉效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE8E31EF1C78BB5800AFFD68 /* __QQ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__QQ____UITests.m"; sourceTree = "<group>"; };
+		AE8E31F11C78BB5800AFFD68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE8E31FD1C78D7FB00AFFD68 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		AE8E31FE1C78D7FB00AFFD68 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE8E31C41C78BB5800AFFD68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8E31DD1C78BB5800AFFD68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8E31E81C78BB5800AFFD68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE8E31BE1C78BB5800AFFD68 = {
+			isa = PBXGroup;
+			children = (
+				AE8E31C91C78BB5800AFFD68 /* 模拟QQ下拉效果 */,
+				AE8E31E31C78BB5800AFFD68 /* 模拟QQ下拉效果Tests */,
+				AE8E31EE1C78BB5800AFFD68 /* 模拟QQ下拉效果UITests */,
+				AE8E31C81C78BB5800AFFD68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE8E31C81C78BB5800AFFD68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE8E31C71C78BB5800AFFD68 /* 模拟QQ下拉效果.app */,
+				AE8E31E01C78BB5800AFFD68 /* 模拟QQ下拉效果Tests.xctest */,
+				AE8E31EB1C78BB5800AFFD68 /* 模拟QQ下拉效果UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE8E31C91C78BB5800AFFD68 /* 模拟QQ下拉效果 */ = {
+			isa = PBXGroup;
+			children = (
+				AE8E31CD1C78BB5800AFFD68 /* AppDelegate.h */,
+				AE8E31CE1C78BB5800AFFD68 /* AppDelegate.m */,
+				AE8E31D01C78BB5800AFFD68 /* ViewController.h */,
+				AE8E31D11C78BB5800AFFD68 /* ViewController.m */,
+				AE8E31FD1C78D7FB00AFFD68 /* UIImage+Image.h */,
+				AE8E31FE1C78D7FB00AFFD68 /* UIImage+Image.m */,
+				AE8E31D31C78BB5800AFFD68 /* Main.storyboard */,
+				AE8E31D61C78BB5800AFFD68 /* Assets.xcassets */,
+				AE8E31D81C78BB5800AFFD68 /* LaunchScreen.storyboard */,
+				AE8E31DB1C78BB5800AFFD68 /* Info.plist */,
+				AE8E31CA1C78BB5800AFFD68 /* Supporting Files */,
+			);
+			path = "模拟QQ下拉效果";
+			sourceTree = "<group>";
+		};
+		AE8E31CA1C78BB5800AFFD68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE8E31CB1C78BB5800AFFD68 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE8E31E31C78BB5800AFFD68 /* 模拟QQ下拉效果Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AE8E31E41C78BB5800AFFD68 /* __QQ____Tests.m */,
+				AE8E31E61C78BB5800AFFD68 /* Info.plist */,
+			);
+			path = "模拟QQ下拉效果Tests";
+			sourceTree = "<group>";
+		};
+		AE8E31EE1C78BB5800AFFD68 /* 模拟QQ下拉效果UITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE8E31EF1C78BB5800AFFD68 /* __QQ____UITests.m */,
+				AE8E31F11C78BB5800AFFD68 /* Info.plist */,
+			);
+			path = "模拟QQ下拉效果UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE8E31C61C78BB5800AFFD68 /* 模拟QQ下拉效果 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE8E31F41C78BB5800AFFD68 /* Build configuration list for PBXNativeTarget "模拟QQ下拉效果" */;
+			buildPhases = (
+				AE8E31C31C78BB5800AFFD68 /* Sources */,
+				AE8E31C41C78BB5800AFFD68 /* Frameworks */,
+				AE8E31C51C78BB5800AFFD68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "模拟QQ下拉效果";
+			productName = "模拟QQ下拉效果";
+			productReference = AE8E31C71C78BB5800AFFD68 /* 模拟QQ下拉效果.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE8E31DF1C78BB5800AFFD68 /* 模拟QQ下拉效果Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE8E31F71C78BB5800AFFD68 /* Build configuration list for PBXNativeTarget "模拟QQ下拉效果Tests" */;
+			buildPhases = (
+				AE8E31DC1C78BB5800AFFD68 /* Sources */,
+				AE8E31DD1C78BB5800AFFD68 /* Frameworks */,
+				AE8E31DE1C78BB5800AFFD68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE8E31E21C78BB5800AFFD68 /* PBXTargetDependency */,
+			);
+			name = "模拟QQ下拉效果Tests";
+			productName = "模拟QQ下拉效果Tests";
+			productReference = AE8E31E01C78BB5800AFFD68 /* 模拟QQ下拉效果Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE8E31EA1C78BB5800AFFD68 /* 模拟QQ下拉效果UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE8E31FA1C78BB5800AFFD68 /* Build configuration list for PBXNativeTarget "模拟QQ下拉效果UITests" */;
+			buildPhases = (
+				AE8E31E71C78BB5800AFFD68 /* Sources */,
+				AE8E31E81C78BB5800AFFD68 /* Frameworks */,
+				AE8E31E91C78BB5800AFFD68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE8E31ED1C78BB5800AFFD68 /* PBXTargetDependency */,
+			);
+			name = "模拟QQ下拉效果UITests";
+			productName = "模拟QQ下拉效果UITests";
+			productReference = AE8E31EB1C78BB5800AFFD68 /* 模拟QQ下拉效果UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE8E31BF1C78BB5800AFFD68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "刘鹿杰";
+				TargetAttributes = {
+					AE8E31C61C78BB5800AFFD68 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4X88Z35WBQ;
+					};
+					AE8E31DF1C78BB5800AFFD68 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4X88Z35WBQ;
+						TestTargetID = AE8E31C61C78BB5800AFFD68;
+					};
+					AE8E31EA1C78BB5800AFFD68 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4X88Z35WBQ;
+						TestTargetID = AE8E31C61C78BB5800AFFD68;
+					};
+				};
+			};
+			buildConfigurationList = AE8E31C21C78BB5800AFFD68 /* Build configuration list for PBXProject "模拟QQ下拉效果" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE8E31BE1C78BB5800AFFD68;
+			productRefGroup = AE8E31C81C78BB5800AFFD68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE8E31C61C78BB5800AFFD68 /* 模拟QQ下拉效果 */,
+				AE8E31DF1C78BB5800AFFD68 /* 模拟QQ下拉效果Tests */,
+				AE8E31EA1C78BB5800AFFD68 /* 模拟QQ下拉效果UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE8E31C51C78BB5800AFFD68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8E31DA1C78BB5800AFFD68 /* LaunchScreen.storyboard in Resources */,
+				AE8E31D71C78BB5800AFFD68 /* Assets.xcassets in Resources */,
+				AE8E31D51C78BB5800AFFD68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8E31DE1C78BB5800AFFD68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8E31E91C78BB5800AFFD68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE8E31C31C78BB5800AFFD68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8E31D21C78BB5800AFFD68 /* ViewController.m in Sources */,
+				AE8E31FF1C78D7FB00AFFD68 /* UIImage+Image.m in Sources */,
+				AE8E31CF1C78BB5800AFFD68 /* AppDelegate.m in Sources */,
+				AE8E31CC1C78BB5800AFFD68 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8E31DC1C78BB5800AFFD68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8E31E51C78BB5800AFFD68 /* __QQ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8E31E71C78BB5800AFFD68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8E31F01C78BB5800AFFD68 /* __QQ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE8E31E21C78BB5800AFFD68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE8E31C61C78BB5800AFFD68 /* 模拟QQ下拉效果 */;
+			targetProxy = AE8E31E11C78BB5800AFFD68 /* PBXContainerItemProxy */;
+		};
+		AE8E31ED1C78BB5800AFFD68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE8E31C61C78BB5800AFFD68 /* 模拟QQ下拉效果 */;
+			targetProxy = AE8E31EC1C78BB5800AFFD68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE8E31D31C78BB5800AFFD68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE8E31D41C78BB5800AFFD68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE8E31D81C78BB5800AFFD68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE8E31D91C78BB5800AFFD68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE8E31F21C78BB5800AFFD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE8E31F31C78BB5800AFFD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE8E31F51C78BB5800AFFD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "模拟QQ下拉效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liulujie.--QQ----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE8E31F61C78BB5800AFFD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "模拟QQ下拉效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liulujie.--QQ----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AE8E31F81C78BB5800AFFD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "模拟QQ下拉效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liulujie.--QQ----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/模拟QQ下拉效果.app/模拟QQ下拉效果";
+			};
+			name = Debug;
+		};
+		AE8E31F91C78BB5800AFFD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "模拟QQ下拉效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liulujie.--QQ----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/模拟QQ下拉效果.app/模拟QQ下拉效果";
+			};
+			name = Release;
+		};
+		AE8E31FB1C78BB5800AFFD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "模拟QQ下拉效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liulujie.--QQ----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "模拟QQ下拉效果";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AE8E31FC1C78BB5800AFFD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "模拟QQ下拉效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liulujie.--QQ----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "模拟QQ下拉效果";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE8E31C21C78BB5800AFFD68 /* Build configuration list for PBXProject "模拟QQ下拉效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE8E31F21C78BB5800AFFD68 /* Debug */,
+				AE8E31F31C78BB5800AFFD68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE8E31F41C78BB5800AFFD68 /* Build configuration list for PBXNativeTarget "模拟QQ下拉效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE8E31F51C78BB5800AFFD68 /* Debug */,
+				AE8E31F61C78BB5800AFFD68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE8E31F71C78BB5800AFFD68 /* Build configuration list for PBXNativeTarget "模拟QQ下拉效果Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE8E31F81C78BB5800AFFD68 /* Debug */,
+				AE8E31F91C78BB5800AFFD68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE8E31FA1C78BB5800AFFD68 /* Build configuration list for PBXNativeTarget "模拟QQ下拉效果UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE8E31FB1C78BB5800AFFD68 /* Debug */,
+				AE8E31FC1C78BB5800AFFD68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE8E31BF1C78BB5800AFFD68 /* Project object */;
+}
