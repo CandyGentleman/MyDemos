@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D15F9352063AE64008870A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D15F9342063AE64008870A5 /* AppDelegate.m */; };
+		3D15F9382063AE64008870A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D15F9372063AE64008870A5 /* ViewController.m */; };
+		3D15F93B2063AE64008870A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D15F9392063AE64008870A5 /* Main.storyboard */; };
+		3D15F93D2063AE64008870A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D15F93C2063AE64008870A5 /* Assets.xcassets */; };
+		3D15F9402063AE64008870A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D15F93E2063AE64008870A5 /* LaunchScreen.storyboard */; };
+		3D15F9432063AE64008870A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D15F9422063AE64008870A5 /* main.m */; };
+		3D15F94D2063AE64008870A5 /* HSPopViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D15F94C2063AE64008870A5 /* HSPopViewTests.m */; };
+		3D15F9582063AE64008870A5 /* HSPopViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D15F9572063AE64008870A5 /* HSPopViewUITests.m */; };
+		3D15F96B2063AEA9008870A5 /* HSCentralPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D15F9662063AEA8008870A5 /* HSCentralPopView.m */; };
+		3D15F96C2063AEA9008870A5 /* HSqqPopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D15F9682063AEA8008870A5 /* HSqqPopMenuView.m */; };
+		3D15F96D2063AEA9008870A5 /* HSPopBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D15F96A2063AEA9008870A5 /* HSPopBottomView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D15F9492063AE64008870A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D15F9282063AE64008870A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D15F92F2063AE64008870A5;
+			remoteInfo = HSPopView;
+		};
+		3D15F9542063AE64008870A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D15F9282063AE64008870A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D15F92F2063AE64008870A5;
+			remoteInfo = HSPopView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D15F9302063AE64008870A5 /* HSPopView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSPopView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D15F9332063AE64008870A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D15F9342063AE64008870A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D15F9362063AE64008870A5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D15F9372063AE64008870A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D15F93A2063AE64008870A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D15F93C2063AE64008870A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D15F93F2063AE64008870A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D15F9412063AE64008870A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D15F9422063AE64008870A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D15F9482063AE64008870A5 /* HSPopViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HSPopViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D15F94C2063AE64008870A5 /* HSPopViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSPopViewTests.m; sourceTree = "<group>"; };
+		3D15F94E2063AE64008870A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D15F9532063AE64008870A5 /* HSPopViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HSPopViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D15F9572063AE64008870A5 /* HSPopViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSPopViewUITests.m; sourceTree = "<group>"; };
+		3D15F9592063AE64008870A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D15F9652063AEA8008870A5 /* HSqqPopMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSqqPopMenuView.h; sourceTree = "<group>"; };
+		3D15F9662063AEA8008870A5 /* HSCentralPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSCentralPopView.m; sourceTree = "<group>"; };
+		3D15F9672063AEA8008870A5 /* HSPopBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSPopBottomView.h; sourceTree = "<group>"; };
+		3D15F9682063AEA8008870A5 /* HSqqPopMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSqqPopMenuView.m; sourceTree = "<group>"; };
+		3D15F9692063AEA9008870A5 /* HSCentralPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSCentralPopView.h; sourceTree = "<group>"; };
+		3D15F96A2063AEA9008870A5 /* HSPopBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSPopBottomView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D15F92D2063AE64008870A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D15F9452063AE64008870A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D15F9502063AE64008870A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D15F9272063AE64008870A5 = {
+			isa = PBXGroup;
+			children = (
+				3D15F9322063AE64008870A5 /* HSPopView */,
+				3D15F94B2063AE64008870A5 /* HSPopViewTests */,
+				3D15F9562063AE64008870A5 /* HSPopViewUITests */,
+				3D15F9312063AE64008870A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D15F9312063AE64008870A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D15F9302063AE64008870A5 /* HSPopView.app */,
+				3D15F9482063AE64008870A5 /* HSPopViewTests.xctest */,
+				3D15F9532063AE64008870A5 /* HSPopViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D15F9322063AE64008870A5 /* HSPopView */ = {
+			isa = PBXGroup;
+			children = (
+				3D15F9332063AE64008870A5 /* AppDelegate.h */,
+				3D15F9342063AE64008870A5 /* AppDelegate.m */,
+				3D15F9362063AE64008870A5 /* ViewController.h */,
+				3D15F9372063AE64008870A5 /* ViewController.m */,
+				3D15F9702063B39D008870A5 /* QQ弹出效果 */,
+				3D15F96F2063B38D008870A5 /* 底部弹出View */,
+				3D15F96E2063B373008870A5 /* 中心弹出view */,
+				3D15F9392063AE64008870A5 /* Main.storyboard */,
+				3D15F93C2063AE64008870A5 /* Assets.xcassets */,
+				3D15F93E2063AE64008870A5 /* LaunchScreen.storyboard */,
+				3D15F9412063AE64008870A5 /* Info.plist */,
+				3D15F9422063AE64008870A5 /* main.m */,
+			);
+			path = HSPopView;
+			sourceTree = "<group>";
+		};
+		3D15F94B2063AE64008870A5 /* HSPopViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D15F94C2063AE64008870A5 /* HSPopViewTests.m */,
+				3D15F94E2063AE64008870A5 /* Info.plist */,
+			);
+			path = HSPopViewTests;
+			sourceTree = "<group>";
+		};
+		3D15F9562063AE64008870A5 /* HSPopViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D15F9572063AE64008870A5 /* HSPopViewUITests.m */,
+				3D15F9592063AE64008870A5 /* Info.plist */,
+			);
+			path = HSPopViewUITests;
+			sourceTree = "<group>";
+		};
+		3D15F96E2063B373008870A5 /* 中心弹出view */ = {
+			isa = PBXGroup;
+			children = (
+				3D15F9692063AEA9008870A5 /* HSCentralPopView.h */,
+				3D15F9662063AEA8008870A5 /* HSCentralPopView.m */,
+			);
+			path = "中心弹出view";
+			sourceTree = "<group>";
+		};
+		3D15F96F2063B38D008870A5 /* 底部弹出View */ = {
+			isa = PBXGroup;
+			children = (
+				3D15F9672063AEA8008870A5 /* HSPopBottomView.h */,
+				3D15F96A2063AEA9008870A5 /* HSPopBottomView.m */,
+			);
+			path = "底部弹出View";
+			sourceTree = "<group>";
+		};
+		3D15F9702063B39D008870A5 /* QQ弹出效果 */ = {
+			isa = PBXGroup;
+			children = (
+				3D15F9652063AEA8008870A5 /* HSqqPopMenuView.h */,
+				3D15F9682063AEA8008870A5 /* HSqqPopMenuView.m */,
+			);
+			path = "QQ弹出效果";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D15F92F2063AE64008870A5 /* HSPopView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D15F95C2063AE65008870A5 /* Build configuration list for PBXNativeTarget "HSPopView" */;
+			buildPhases = (
+				3D15F92C2063AE64008870A5 /* Sources */,
+				3D15F92D2063AE64008870A5 /* Frameworks */,
+				3D15F92E2063AE64008870A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HSPopView;
+			productName = HSPopView;
+			productReference = 3D15F9302063AE64008870A5 /* HSPopView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D15F9472063AE64008870A5 /* HSPopViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D15F95F2063AE65008870A5 /* Build configuration list for PBXNativeTarget "HSPopViewTests" */;
+			buildPhases = (
+				3D15F9442063AE64008870A5 /* Sources */,
+				3D15F9452063AE64008870A5 /* Frameworks */,
+				3D15F9462063AE64008870A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D15F94A2063AE64008870A5 /* PBXTargetDependency */,
+			);
+			name = HSPopViewTests;
+			productName = HSPopViewTests;
+			productReference = 3D15F9482063AE64008870A5 /* HSPopViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D15F9522063AE64008870A5 /* HSPopViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D15F9622063AE65008870A5 /* Build configuration list for PBXNativeTarget "HSPopViewUITests" */;
+			buildPhases = (
+				3D15F94F2063AE64008870A5 /* Sources */,
+				3D15F9502063AE64008870A5 /* Frameworks */,
+				3D15F9512063AE64008870A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D15F9552063AE64008870A5 /* PBXTargetDependency */,
+			);
+			name = HSPopViewUITests;
+			productName = HSPopViewUITests;
+			productReference = 3D15F9532063AE64008870A5 /* HSPopViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D15F9282063AE64008870A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "刘鹿杰的mac";
+				TargetAttributes = {
+					3D15F92F2063AE64008870A5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3D15F9472063AE64008870A5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D15F92F2063AE64008870A5;
+					};
+					3D15F9522063AE64008870A5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D15F92F2063AE64008870A5;
+					};
+				};
+			};
+			buildConfigurationList = 3D15F92B2063AE64008870A5 /* Build configuration list for PBXProject "HSPopView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D15F9272063AE64008870A5;
+			productRefGroup = 3D15F9312063AE64008870A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D15F92F2063AE64008870A5 /* HSPopView */,
+				3D15F9472063AE64008870A5 /* HSPopViewTests */,
+				3D15F9522063AE64008870A5 /* HSPopViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D15F92E2063AE64008870A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D15F9402063AE64008870A5 /* LaunchScreen.storyboard in Resources */,
+				3D15F93D2063AE64008870A5 /* Assets.xcassets in Resources */,
+				3D15F93B2063AE64008870A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D15F9462063AE64008870A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D15F9512063AE64008870A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D15F92C2063AE64008870A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D15F96D2063AEA9008870A5 /* HSPopBottomView.m in Sources */,
+				3D15F96C2063AEA9008870A5 /* HSqqPopMenuView.m in Sources */,
+				3D15F9382063AE64008870A5 /* ViewController.m in Sources */,
+				3D15F9432063AE64008870A5 /* main.m in Sources */,
+				3D15F9352063AE64008870A5 /* AppDelegate.m in Sources */,
+				3D15F96B2063AEA9008870A5 /* HSCentralPopView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D15F9442063AE64008870A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D15F94D2063AE64008870A5 /* HSPopViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D15F94F2063AE64008870A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D15F9582063AE64008870A5 /* HSPopViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D15F94A2063AE64008870A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D15F92F2063AE64008870A5 /* HSPopView */;
+			targetProxy = 3D15F9492063AE64008870A5 /* PBXContainerItemProxy */;
+		};
+		3D15F9552063AE64008870A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D15F92F2063AE64008870A5 /* HSPopView */;
+			targetProxy = 3D15F9542063AE64008870A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D15F9392063AE64008870A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D15F93A2063AE64008870A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D15F93E2063AE64008870A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D15F93F2063AE64008870A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D15F95A2063AE65008870A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D15F95B2063AE65008870A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D15F95D2063AE65008870A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X88Z35WBQ;
+				INFOPLIST_FILE = HSPopView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aaaa.HSPopView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D15F95E2063AE65008870A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X88Z35WBQ;
+				INFOPLIST_FILE = HSPopView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aaaa.HSPopView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D15F9602063AE65008870A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X88Z35WBQ;
+				INFOPLIST_FILE = HSPopViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aaaa.HSPopViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HSPopView.app/HSPopView";
+			};
+			name = Debug;
+		};
+		3D15F9612063AE65008870A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X88Z35WBQ;
+				INFOPLIST_FILE = HSPopViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aaaa.HSPopViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HSPopView.app/HSPopView";
+			};
+			name = Release;
+		};
+		3D15F9632063AE65008870A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X88Z35WBQ;
+				INFOPLIST_FILE = HSPopViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aaaa.HSPopViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HSPopView;
+			};
+			name = Debug;
+		};
+		3D15F9642063AE65008870A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X88Z35WBQ;
+				INFOPLIST_FILE = HSPopViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aaaa.HSPopViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HSPopView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D15F92B2063AE64008870A5 /* Build configuration list for PBXProject "HSPopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D15F95A2063AE65008870A5 /* Debug */,
+				3D15F95B2063AE65008870A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D15F95C2063AE65008870A5 /* Build configuration list for PBXNativeTarget "HSPopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D15F95D2063AE65008870A5 /* Debug */,
+				3D15F95E2063AE65008870A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D15F95F2063AE65008870A5 /* Build configuration list for PBXNativeTarget "HSPopViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D15F9602063AE65008870A5 /* Debug */,
+				3D15F9612063AE65008870A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D15F9622063AE65008870A5 /* Build configuration list for PBXNativeTarget "HSPopViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D15F9632063AE65008870A5 /* Debug */,
+				3D15F9642063AE65008870A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D15F9282063AE64008870A5 /* Project object */;
+}
